@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: "Get the code"
-      uses: checkout/checkout@v6.0.1
+      uses: actions/checkout@v6.0.1
     - name: Docker Hub Authentication
       uses: docker/login-action@v3
       with:
